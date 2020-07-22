@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+
+.title {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    text-justify: auto;
+    padding: 0.5rem;
+    font-size: 48px;
+    font-weight: 700;
+}

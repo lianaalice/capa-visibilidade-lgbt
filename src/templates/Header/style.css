@@ -1,0 +1,11 @@
+.header {
+    background-image: url(../../assets/banner.png);
+    background-size: contain;
+    background-position: top center;
+    height: 54vh;
+    max-height: max-content;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #eF020290;
+}
+

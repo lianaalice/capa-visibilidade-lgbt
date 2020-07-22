@@ -3,7 +3,7 @@ import "./style.css";
 
 const Icon = ({iconAlt, iconSrc}) => {
     return (
-        <img src={iconSrc} alt={iconAlt} />
+        <img className="icon" src={iconSrc} alt={iconAlt} />
     )
 }
 

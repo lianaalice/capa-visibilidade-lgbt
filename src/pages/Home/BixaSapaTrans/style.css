@@ -1,0 +1,42 @@
+
+.section--container {
+    background-image: url(../../../assets/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.bixaTitle {
+    color: #008018;
+    font-size: 58px;
+    margin: 0 25%;
+    font-weight: bold;
+    padding: 3rem;
+
+}
+
+.content--container {
+    padding: 1rem;
+}
+
+.contentTitle {
+    padding: 0.5rem;
+    color: navy;
+}
+
+.contentBox--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 15%;
+    padding: 1rem;
+}
+
+.contentBox--paragraph {
+    margin: 10px;
+    margin-left: 5rem;
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+}

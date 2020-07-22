@@ -4,21 +4,27 @@ import "./style.css";
 import Button from "../Button";
 
 const Filters = ({
-  clickCulture,
-  clickEducation,
-  clickEnem,
-  clickHelp,
-  clickTech,
-  clickWork,
+  filtersResponse,
+  filterClick
+
 }) => {
   return (
     <div className="filtersBox">
-      <Button classBtn="red filter--btn" onClick={clickEducation} text="Educação" />
-      <Button classBtn="purple filter--btn" onClick={clickWork} text="Trabalho" />
-      <Button classBtn="green filter--btn" onClick={clickHelp} text="Acolhimento" />
-      <Button classBtn="blue filter--btn" onClick={clickEnem} text="Enem" />
-      <Button classBtn="pink filter--btn" onClick={clickTech} text="Tecnologia" />
-      <Button classBtn="orange filter--btn" onClick={clickCulture} text="Cultura" />
+      {filtersResponse.map((item, index) => ( 
+        
+        <Button 
+        key={`${index + 1} --filter`}
+        id={item}
+        classBtn={`${item} filter--btn`} 
+        onClick={filterClick} 
+        text={item} />
+      ) )}
+      {/* <Button classBtn="purple-hover filter--btn" onClick={filterClick} text="Trabalho" />
+      <Button classBtn="green-hover filter--btn" onClick={filterClick} text="Acolhimento" />
+      <Button classBtn="blue-hover filter--btn" onClick={filterClick} text="Enem" />
+      <Button classBtn="pink-hover filter--btn" onClick={filterClick} text="Tecnologia" />
+      <Button classBtn="orange-hover filter--btn" onClick={filterClick} text="Cultura" />
+      <Button classBtn="gold-hover filter--btn" onClick={filterClick} text="TODAS" /> */}
     </div>
   );
 };

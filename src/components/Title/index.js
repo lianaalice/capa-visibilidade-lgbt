@@ -3,7 +3,7 @@ import "./style.css";
 
 const Title = ({ Tag, content, className}) => {
     return (
-        <Tag className={className}> {content} </Tag>
+        <Tag className={`title ${className}`} >{content}</Tag>
     )
 }
 

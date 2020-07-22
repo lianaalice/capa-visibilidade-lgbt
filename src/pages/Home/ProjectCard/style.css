@@ -1,0 +1,59 @@
+
+
+.card--container {
+    margin: 50px 10%;
+    border-radius: 30px;
+    width: 80%;
+    height: 250px;
+    background-color:#EBC33525; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemList {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-top: 25px ;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.linkBox {
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.link {
+    padding: 16px;
+    border-radius: 15px;
+    color: black;
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+
+.descriptionBox {
+    padding: 10px;
+    margin: 30px;
+    border: dashed 1.5px red;
+    border-radius: 20px ;
+}
+
+.descriptionData { 
+    font-size: 16px;
+}

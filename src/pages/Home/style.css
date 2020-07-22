@@ -1,0 +1,13 @@
+.main--container {
+    background-color: lightcyan;
+}
+
+.firstSections--container { 
+    background-image: url(../../assets/bg1.png);
+    background-size: cover;
+    background-position: center;
+    max-height: max-content;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 5%;
+}

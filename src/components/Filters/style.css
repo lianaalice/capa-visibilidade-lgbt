@@ -1,0 +1,48 @@
+.filtersBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.filter--btn {
+  font-family: "Architects Daughter", cursive;
+  font-size: 21px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: lightgray;
+}
+
+.filter--btn:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.Educação:hover {
+  background-color: red;
+}
+
+.Trabalho:hover {
+    background-color: purple;
+}
+
+.Acolhimento:hover {
+    background-color: fuchsia;
+}
+
+.Enem:hover {
+    background-color: green;
+}
+
+.TODAS:hover {
+    background-color: gold;
+}
+
+.Cultura:hover {
+    background-color: orangered;
+}
+
+.Tecnologia:hover {
+    background-color: blue;
+}

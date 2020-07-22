@@ -1,0 +1,43 @@
+.searchSection {
+    margin: 2rem 15%;
+    padding: 1rem;
+}
+
+.searchTitle {
+    margin: 15px;
+    color: red;
+    font-weight: bolder;
+}
+
+.searchBox {
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBtn {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-family: Architets Daughter, cursive;
+    padding: 10px;
+    font-size: 18px;   
+    color: #000;
+    background-color: #DB363685;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.searchBtn:hover {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+
+.searchInput {
+    width: 80%;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+}

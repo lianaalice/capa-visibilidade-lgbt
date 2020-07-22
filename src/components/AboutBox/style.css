@@ -1,0 +1,38 @@
+
+
+.aboutBox--container {
+    text-align: center;
+    margin: 0 20%;
+    padding: 1.5rem;
+    background-color: #EBC33575;
+    border-radius: 40px;
+}
+
+.mainTitle {
+    margin: 0 15%;
+}
+
+.aboutBox--content {
+    color: white;
+    font-weight: 700;
+    padding: 2% 7%;
+    text-justify: auto;
+    margin-bottom: 20px;
+}
+
+.aboutLink {
+    text-decoration: none;
+    font-family: Architets Daughter, cursive;
+    padding: 18px;
+    font-size: 24px;   
+    color: #000;
+    background-color: #DB363685;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.aboutLink:hover {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
