@@ -22,7 +22,7 @@ const YoutubeSection = () => {
         src="https://www.youtube.com/embed/6Xr2TFK5smc"
         frameborder="1"
         title="nao é mimimi"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
       <Paragraph classP="cardParagraph" text="Para conhecer melhor o grupo Mães pela Diversidade" />
       <a href="https://maespeladiversidade.org.br/" rel="noopener noreferrer" target="_blank">Clique aqui</a>

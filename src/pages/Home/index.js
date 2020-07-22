@@ -20,8 +20,9 @@ class Home extends Component {
     super(props)
     
     this.state = {
-        onChange: "",
+        inputValue: "",
         data: [],
+        dataFilter: [],
         filters: [
             "Educação",
             "Trabalho",
@@ -38,7 +39,7 @@ class Home extends Component {
 
   getApi = async () => {
     const response = await api.get("/projects"); 
-    this.setState({data: response.data});
+    this.setState({data: response.data, dataFilter: response.data });
  }
 
 
@@ -49,48 +50,47 @@ class Home extends Component {
 
   onChange = (e) => {
     const value = e.target.value;
-    this.setState({onChange: value})
+    this.setState({inputValue: value})
   };
 
   onClick = async () => {
-    const { onChange, data } = this.state;
+    const { inputValue, data } = this.state;
     
 
-    if (onChange && data.length) {
+    if (inputValue && data.length) {
         try { 
             const searchResult = await data.filter(item => 
-            item.type.toLowerCase().includes(onChange.toLowerCase())) 
+            item.type.toLowerCase().includes(inputValue.toLowerCase()) || item.from.toLowerCase().includes(inputValue.toLowerCase()) ) 
         
-            this.setState({onChange: "", error: "", data: searchResult}) 
+            this.setState({inputValue: "", error: "", dataFilter: searchResult}) 
         } catch (err) {
-            this.setState({error:"Nada foi encontrado na busca", onChange: "" })
+            this.setState({error:"Nada foi encontrado na sua busca", inputValue: "", dataFilter: [] })
         }
     }   else {
-            this.setState({error:"digite algo para procurar", onChange: "" })
+            this.setState({error:"digite algo para fazer a pesquisa", inputValue: "" , dataFilter: [] })
     }
   };
 
 
   handleFilters = (e) => {
-    const {data} = this.state;
-    const value = e.target.id.toLowerCase();
+    const { data } = this.state;
+    const value = e.target.innerText.toLowerCase();
     if(value === "todas") {
-        this.setState({data, error:""})
+        this.setState({dataFilter: data, error:""})
         return;
     }
     const result = data.filter((item) => {
         return item.type.toLowerCase().includes(value);
     })
 
-    console.log( "result do data-filter: " ,result)
     if (result.length === 0) {
         this.setState({
-            data: [], 
+            dataFilter: [], 
             error:"não foram encontrados projetos"
         })
     }   else {
         this.setState({
-            data: result,
+            dataFilter: result,
             error: ""
         })
     }
@@ -99,7 +99,7 @@ class Home extends Component {
 
 
   render() {
-    const { data , error , filters } = this.state;
+    const { dataFilter , error , filters, inputValue } = this.state;
 
     return (
       <body>
@@ -112,16 +112,19 @@ class Home extends Component {
           </div>
           <BixaSapaTrans />
           <div className="lastSections--container">
+            <div className="bgOpacity">
             <SearchBar 
             onClickSearch={this.onClick}
             onChange={this.onChange}
+            value={inputValue}
             filterClick={this.handleFilters}
             filtersResponse={filters}
             />
             <ProjectCard
-            cardData= {data}
+            cardData= {dataFilter}
             error={error}
             />
+            </div>
           </div>
         </main>
         <Footer />

@@ -9,7 +9,7 @@
 
 .bixaTitle {
     color: #008018;
-    font-size: 58px;
+    font-size: 52px;
     margin: 0 25%;
     font-weight: bold;
     padding: 3rem;
@@ -17,11 +17,12 @@
 }
 
 .content--container {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .contentTitle {
-    padding: 0.5rem;
+    padding: 0.2rem;
+    font-size: 44px;
     color: navy;
 }
 
@@ -38,5 +39,5 @@
     margin-left: 5rem;
     font-weight: bold;
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
 }

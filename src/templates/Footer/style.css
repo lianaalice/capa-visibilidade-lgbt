@@ -1,0 +1,70 @@
+.footer--container {
+    display: flex; 
+    justify-content: space-around;
+    height: 35vh;
+    background-color: #2c2c2c;
+    align-items: center;
+}
+
+.footer--secondContainer {
+    height: 7vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBox--section {
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.footerBox--title {
+    color: white;
+    font-size: 38px !important;
+    padding: 1rem;
+}
+
+.footerText {
+    color: whitesmoke;
+    font-size: 16px !important;
+}
+
+
+.footer--listItem {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.5rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.link--decoration {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.footerIcons {
+    width: 32px;
+    transition: 0.5s;
+}
+
+.footerIcons:hover {
+    width: 36px;
+}
+
+
+.footerNav { 
+    font-family: 'Architects Daughter', cursive;
+    font-size: 28px;
+    padding: 1rem;
+}
+
+

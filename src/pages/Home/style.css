@@ -1,5 +1,5 @@
 .main--container {
-    background-color: lightcyan;
+    background-color: beige;
 }
 
 .firstSections--container { 
@@ -10,4 +10,16 @@
     width: 100%;
     background-repeat: no-repeat;
     padding: 5%;
+}
+
+
+.lastSections--container {
+    background-image: url(../../assets/butterfly-bg.png);
+    background-position: bottom left;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.bgOpacity {
+    background: rgba(255, 255, 255, 0.6);
 }

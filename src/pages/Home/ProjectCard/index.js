@@ -13,13 +13,11 @@ const ProjectCard = ({cardData, error}) => {
                     <li className="itemList"> {item.type} </li>
                     <li className="itemList"> {item.name} </li> 
                     <li className="itemList"> {item.from} </li>
+                    <li className="itemList"> <a className="link" href={item.link} alt={item.link} target="_blank" rel="noopener noreferrer">Link para Página Online</a> </li>
                 </ul>
-                    <div className="descriptionBox">
-                    <Paragraph classP="descriptionData" text={item.description} />
-                    <div className="linkBox">
-                    <a className="link" href={item.link} alt={item.link} target="_blank" rel="noopener noreferrer">Link para Página Online</a>
-                    </div>
-                    </div>
+                    <section className="descriptionBox">
+                        <Paragraph classP="descriptionData" text={item.description} />
+                    </section>
             </div>
     ))}
         </section>
