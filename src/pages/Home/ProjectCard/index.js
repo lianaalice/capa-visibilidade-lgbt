@@ -4,7 +4,6 @@ import "./style.css";
 import Paragraph from "../../../components/Paragraph";
 
 const ProjectCard = ({cardData, error}) => {
-    console.log(cardData)
     return ( 
         <section >
             <Paragraph text={error} />

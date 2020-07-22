@@ -37,8 +37,8 @@ class Home extends Component {
 
 
   getApi = async () => {
-    const res = await api.get("/");
-    this.setState({data: res.data});
+    const response = await api.get("/projects"); 
+    this.setState({data: response.data});
  }
 
 
@@ -54,6 +54,7 @@ class Home extends Component {
 
   onClick = async () => {
     const { onChange, data } = this.state;
+    
 
     if (onChange && data.length) {
         try { 
