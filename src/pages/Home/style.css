@@ -18,8 +18,21 @@
     background-position: bottom left;
     background-size: 50%;
     background-repeat: no-repeat;
+
 }
 
 .bgOpacity {
     background: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 900px ) {
+    .lastSections--container {
+        background-size: 80%;
+    }
+}
+
+@media screen and (max-width: 650px ) {
+    .lastSections--container {
+        background-size: 100%;
+    }
 }

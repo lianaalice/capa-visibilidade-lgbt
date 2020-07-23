@@ -1,0 +1,29 @@
+
+.aboutArticle {
+    margin: 5rem 18%;
+}
+
+.aboutArticle--title {
+    color: maroon;
+}
+
+.aboutArticle--p {
+    padding: 0.7rem;
+    text-align: left;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .aboutArticle {
+        margin: 50px 20px;
+    }
+
+    .aboutArticle--p {
+        text-align: center;
+        font-size: 18px;
+        padding: 0.5rem;
+    }
+
+
+}

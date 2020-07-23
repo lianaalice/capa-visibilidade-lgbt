@@ -37,3 +37,22 @@
     font-weight: bold;
     background-color: red;
 }
+
+@media screen and (max-width: 800px ) {
+    .aboutBox--container {
+        margin: 0 10%;
+        padding: 1rem;
+    }
+
+    .aboutLink {
+        padding: 16px;
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 460px ) {
+    .aboutBox--container {
+        padding: 0.5rem;
+        margin: 10px;
+    }
+}

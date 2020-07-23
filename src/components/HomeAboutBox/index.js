@@ -16,8 +16,7 @@ const HomeAboutBox = () => {
       />
       <Paragraph
         classP="aboutBox--content"
-        text="Esse web-site tem a ideia de dar visibilidade à projetos sociais que apoiem e incentivem pessoas gays, lésbicas, bissexuais, transgêneros, travestis, queer, intersexuais, assexuais dentre outras que estejam em situação de vulnerabilidade e/ou buscando oportunidades para aprender coisas novas, sustentar-se e viver no Brasil. 
-LGBTQIA++  => { cores em meio a um mundo acostumado ao preto e branco }..."
+        text="Esse web-site tem a ideia de dar visibilidade à projetos sociais que apoiem e incentivem pessoas gays, lésbicas, bissexuais, transgêneros, travestis, queer, intersexuais, assexuais dentre outras que estejam em situação de vulnerabilidade e/ou buscando oportunidades para aprender coisas novas, sustentar-se e viver em nosso país."
       />
       <Link className="aboutLink" to="/saibamais">Saiba ++ </Link>
 

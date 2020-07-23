@@ -1,5 +1,11 @@
 .navLogo { 
     width: 80%;
     padding: 0.6rem;
-    max-width: max-content;
+    
+}
+
+@media screen and (max-width: 800px ) {
+    .navLogo {
+        width: 70%;
+    }
 }

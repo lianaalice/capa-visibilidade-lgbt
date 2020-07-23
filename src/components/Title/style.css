@@ -10,3 +10,9 @@
     font-size: 48px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 600px ) {
+    .title {
+        font-size: 38px;    
+    }
+}
