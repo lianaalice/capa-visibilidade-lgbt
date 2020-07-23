@@ -45,7 +45,7 @@ const Content = () => {
       </article>
       <article className="aboutArticle">
       <Title
-          Tag="h1"
+          Tag="h2"
           className="aboutArticle--title"
           content= {`Agradecimentos ${'\n\r'} & Futuro do projeto`}
         />
