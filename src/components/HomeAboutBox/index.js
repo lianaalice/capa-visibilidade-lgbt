@@ -6,7 +6,7 @@ import Paragraph from "../Paragraph";
 
 import { Link } from "react-router-dom";
 
-const AboutBox = () => {
+const HomeAboutBox = () => {
   return (
     <section className="aboutBox--container">
       <Title
@@ -25,4 +25,4 @@ LGBTQIA++  => { cores em meio a um mundo acostumado ao preto e branco }..."
   );
 };
 
-export default AboutBox;
+export default HomeAboutBox;

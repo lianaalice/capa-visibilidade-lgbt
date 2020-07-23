@@ -5,6 +5,8 @@ import NavBar from "../../templates/NavBar";
 import Header from "../../templates/Header";
 import Footer from "../../templates/Footer";
 
+import Content from "./Content";
+
 class MoreAbout extends Component {
     state = {
 
@@ -16,7 +18,7 @@ class MoreAbout extends Component {
                 <NavBar />
                 <Header />
             <main>
-                <h1>Saiba++</h1>
+                <Content />
             </main>
                 <Footer />
             </body>
