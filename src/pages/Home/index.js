@@ -7,7 +7,7 @@ import NavBar from "../../templates/NavBar";
 import Header from "../../templates/Header";
 import Footer from "../../templates/Footer";
 
-import HomeAboutBox from "../../components/HomeAboutBox";
+import AboutPreview from "./AboutPreview";
 import YoutubeSection from "./YoutubeSection";
 import BixaSapaTrans from "./BixaSapaTrans";
 import SearchBar from "./SearchBar";
@@ -114,7 +114,7 @@ class Home extends Component {
         <Header />
         <main className="main--containers">
           <div className="firstSections--container">
-            <HomeAboutBox />
+            <AboutPreview />
             <YoutubeSection />
           </div>
           <BixaSapaTrans />

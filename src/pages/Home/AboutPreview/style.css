@@ -1,0 +1,58 @@
+
+
+.aboutBox--container {
+    text-align: center;
+    margin: 0 20%;
+    padding: 1.5rem;
+    background-color: #EBC33575;
+    border-radius: 40px;
+}
+
+.mainTitle {
+    margin: 0 15%;
+    color: white;
+}
+
+.aboutBox--content {
+    color: black;
+    font-weight: 700;
+    padding: 2% 7%;
+    text-justify: auto;
+    margin-bottom: 20px;
+}
+
+.aboutLink {
+    text-decoration: none;
+    font-family: Architets Daughter, cursive;
+    padding: 18px;
+    font-size: 24px;   
+    color: #000;
+    background-color: #DB363685;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.aboutLink:hover {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+
+@media screen and (max-width: 800px ) {
+    .aboutBox--container {
+        margin: 0 10%;
+        padding: 1rem;
+    }
+
+    .aboutLink {
+        padding: 16px;
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 460px ) {
+    .aboutBox--container {
+        padding: 0.5rem;
+        margin: 10px;
+    }
+}

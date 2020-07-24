@@ -1,7 +1,7 @@
 
 
 .card--container {
-    margin: 50px 15%;
+    margin: 50px auto;
     border-radius: 30px;
     padding: 2.5rem;
     width: 70%;
@@ -29,6 +29,7 @@
     color: red;
     font-weight: bold;
     text-align: left;
+    max-width: 80%;
 }
 
 
@@ -48,6 +49,7 @@
     border: dashed 1.5px red;
     border-radius: 20px;
     margin: 0 5px;
+    max-width: 100%;
 }
 
 .descriptionData { 
@@ -74,7 +76,7 @@
 
     .itemList {
         font-size: 16px;
-        padding: 3px;
+        padding: 3px 0;
     }
 }
 
@@ -89,7 +91,12 @@
 
 @media screen and (max-width: 430px ) {
     .card--container {
-        width: 70%;
+        width: 80%;
         height: 65vh;
+    }
+
+    .descriptionBox {
+        margin: 0;
+        width: 95%;
     }
 }

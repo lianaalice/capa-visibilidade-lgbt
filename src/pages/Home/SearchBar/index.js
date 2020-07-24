@@ -25,7 +25,7 @@ const SearchBar = ({
           value={value}
           onChange={onChange}
           className="searchInput"
-          placeholder="Busque por projetos aqui"
+          placeholder="Busque por projetos ou por cidade"
         />
         <Button text="Procurar" classBtn="searchBtn" onClick={onClickSearch} />
       </div>

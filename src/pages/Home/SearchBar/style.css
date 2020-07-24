@@ -44,7 +44,20 @@
 
 @media screen and (max-width: 800px ) {
     .searchSection {
-        margin: 1rem 5%;
+        margin: 1rem 0;
         padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 500px ) {
+    .searchBox {
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+    .searchInput {
+        margin: 2rem;
+        width: 90%;
+        font-size: 14px;
     }
 }
