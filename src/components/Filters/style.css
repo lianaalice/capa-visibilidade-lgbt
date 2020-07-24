@@ -2,12 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 1rem;
 }
 
 .filter--btn {
   font-family: "Architects Daughter", cursive;
   font-size: 21px;
+  margin: 10px;
   padding: 8px;
   cursor: pointer;
   border-radius: 20px;

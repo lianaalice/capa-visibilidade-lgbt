@@ -5,18 +5,3 @@
     background-position-x: 60%;
     padding: 2rem;
 }
-
-.aboutArticle {
-    margin: 5rem 18%;
-}
-
-.aboutArticle--title {
-    color: maroon;
-}
-
-.aboutArticle--p {
-    padding: 0.7rem;
-    text-align: left;
-    font-size: 21px;
-    font-weight: bold;
-}

@@ -27,3 +27,19 @@
 .navBar--listItem:hover {
     font-weight: bold;
 }
+
+@media screen and (max-width: 800px ) {
+    .navBar--container {
+        height: 12vh;
+    }
+}
+
+@media screen and (max-width: 460px ) {
+    .navBar--boxList {
+        font-size: 21px;
+    }
+    .navBar--listItem {
+        padding: 0.5rem;
+        margin: 0;
+    }
+}

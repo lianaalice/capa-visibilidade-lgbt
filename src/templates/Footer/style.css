@@ -29,6 +29,7 @@
 .footerText {
     color: whitesmoke;
     font-size: 16px !important;
+    font-weight: 800;
 }
 
 
@@ -68,3 +69,51 @@
 }
 
 
+@media screen and (max-width: 800px ) {
+    .footerText{
+        font-size: 12px !important;
+    }
+
+    .footer--container {
+        height: 25vh;
+    }
+
+    .footerBox--section {
+        margin: 0;
+    }
+
+    .footerBox--title {
+        font-size: 30px !important;
+    }
+
+    .footer--listItem {
+        font-size: 16px;
+    }
+
+    .footerNav {
+        padding: 0.5rem;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 600px ) {
+    .footerIcons {
+        width: 26px;
+    }
+    .footer--listItem {
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .footer--container {
+       flex-wrap: wrap;
+       height: 45vh;
+    }
+
+    .footer--secondContainer {
+        height: 12vh;
+        padding: 5px;
+    }
+    .footerBox--section {
+        padding: 0;
+    }
+}

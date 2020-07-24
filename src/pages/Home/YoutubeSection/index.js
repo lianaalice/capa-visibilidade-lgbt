@@ -17,7 +17,7 @@ const YoutubeSection = () => {
     <div className="card">
       <Title Tag="h3" content="#naoemimimi"/>
       <iframe
-        width="410"
+        width="360"
         height="320"
         src="https://www.youtube.com/embed/6Xr2TFK5smc"
         frameborder="1"
@@ -30,7 +30,7 @@ const YoutubeSection = () => {
     <div className="card">
       <Title Tag="h3" content="O que é transfobia??"/>
       <iframe
-        width="410"
+        width="360"
         height="320"
         src="https://www.youtube.com/embed/srimY0YtfrA"
         frameborder="0"

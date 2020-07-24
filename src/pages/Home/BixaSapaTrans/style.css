@@ -41,3 +41,29 @@
     text-align: left;
     font-size: 16px;
 }
+
+@media screen and (max-width: 800px ) {
+    .bixaTitle {
+        font-size: 44px;
+        margin: 0 10%;
+        padding: 2rem;
+    }
+
+    .contentBox--container {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 510px ) {
+    .contentTitle {
+        font-size: 36px;
+    }
+    .contentBox--container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contentBox--paragraph {
+        margin: 10px;
+        text-align: center;
+    }
+}

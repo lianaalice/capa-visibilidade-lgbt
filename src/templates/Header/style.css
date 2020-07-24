@@ -9,3 +9,14 @@
     background-color: #fF0202;
 }
 
+@media screen and (max-width: 1400px ) {
+    .header {
+        background-repeat: repeat;
+    }
+}
+
+@media screen and (max-width: 850px ) {
+    .header {
+        height: 0vh;
+    }
+}
