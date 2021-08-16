@@ -1,8 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## capa de visibilidade
 
-## Available Scripts
+ <img  alt="vomitando arco-iris" src="https://media.giphy.com/media/PzRJ6hPI5fPaM/giphy.gif">
 
-In the project directory, you can run:
+
+
+**este foi meu projeto de finalização do bootcamp de frontend da [reprograma](https://reprograma.com.br) em 2020/1** 
+
+o objetivo é divulgar projetos de educação, acolhimento e oportunidades de emprego para população `LGBTQIA+` no Brasil, além de dar uma breve introdução sobre as realidades dessa comunidade no país. 🏳️‍🌈 🏳️‍🌈 
+
+o layout, que ainda necessita **muitas** melhorias, foi feito usando o [figma](https://www.figma.com/) e desenvolvi o a página web usando `React` e `CSS`. 
+o banco de dados em JSON `fake API` foi feito usando o [my json server](https://my-json-server.typicode.com/). 
+o site foi hospedado com [netlify](https://www.netlify.com/).  
+
+link para **Capa da visibilidade** [https://capadavisibilidade.netlify.app/](https://capadavisibilidade.netlify.app/)
+
+abaixo instruções para rodar uma aplicação em React. Antes disso, basta clonar o repositório e usar `npm install` ou `yarn add` para baixar os pacotes utilizados.
+
+---------------------------------------------------------------- 
+**this is my final project in [reprograma](https://reprograma.com.br) frontend bootcamp at 2020/1** 
+
+the goal is publicize education, care and job projects and opportunities for the `LGBTQIA+` at Brazil, and to give a brief about the reality that this community faces in the country. 🏳️‍🌈 🏳️‍🌈
+
+the layout, that still needs **a lot** of improvements, was made using [figma](https://www.figma.com/) and I developed the webpage using the `React` library and `CSS`.
+the JSON database is a `fake API` made using [my json server](https://my-json-server.typicode.com/).  
+the site is hosted with [netlify](https://www.netlify.com/).  
+
+link para **Capa da visibilidade** [https://capadavisibilidade.netlify.app/](https://capadavisibilidade.netlify.app/)
+
+instructions on How to use the React app in the text below. Use `npm install` or `yarn add` to add the packages used. 
+
+---------------------------------------------------------------- 
+
+<img width="300px" alt="vomitando arco-iris" src="https://media.giphy.com/media/26AHQCn4Ce8fLedlm/giphy.gif">
+
 
 ### `npm start`
 
@@ -27,42 +57,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
